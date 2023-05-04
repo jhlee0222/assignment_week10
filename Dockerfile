@@ -9,10 +9,11 @@ WORKDIR /root
 RUN mkdir /root/A
 RUN mkdir /root/B
 RUN mkdir /root/C
+RUN git clone https://github.com/jhlee0222/assignment_week8.git
 RUN mkdir /root/files
 RUN touch /root/files/a.txt
 RUN touch /root/files/b.txt
 RUN touch /root/files/c.txt
-RUN git clone https://github.com/jhlee0222/assignment_week8.git
+
 
 
